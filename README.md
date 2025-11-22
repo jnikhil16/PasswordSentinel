@@ -22,7 +22,7 @@ CrackPass is a command-line password strength analyzer that evaluates your passw
 Clone the project
 
 ```bash
-  git clone https://github.com/cracking-bytes/Crack-Pass.git
+  git clone https://github.com/jnikhil16/PasswordSentinel.git
 ```
 
 Go to the project directory
@@ -86,7 +86,3 @@ Thank you for using CrackPass!
 - VS Code
 
 - Git & GitHub for version control
-
-
-
-
