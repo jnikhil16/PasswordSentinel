@@ -1,7 +1,7 @@
 
-# Crack Pass
+# Password Sentinel
 
-CrackPass is a command-line password strength analyzer that evaluates your password using real-world techniques. It estimates how long it would take to brute-force your password, checks it against common wordlists, and provides actionable suggestions to improve your password security.
+Password Sentinel is a command-line password strength analyzer that evaluates your password using real-world techniques. It estimates how long it would take to brute-force your password, checks it against common wordlists, and provides actionable suggestions to improve your password security.
 
 
 ## Features
@@ -42,27 +42,20 @@ Run the program
 
 ```text
 $ python3 main.py
- 
-   ____                        _        ____                         
-  / ___|  _ __   __ _    ___  | | __   |  _ \   __ _   ___   ___  
- | |     | '__/ / _` |  / __| | |/ /   | |_) | / _` | / __/ / __|  
- | |___  | |   | (_| | | (__  |   <    |  __/ | (_| | \__ \ \__ \  
-  \____| |_|    \__,_|  \___| |_|\_\   |_|     \__,_| |___/ |___/   
-       
 
-Welcome to CrackPass! Enter a password to check its strength.
+Welcome to Password Sentinel! Enter a password to check its strength.
 
 Enter the password to continue: abcd1234
 Found: abcd1234                                                         
 
 Summary:
 Length is okay, but you might want to increase it for better security.
-Lacks variety in caharacters. Try including more uppercase letters symbols.
+Lacks variety in characters. Try including more uppercase letters symbols.
 Good character position. No repeated patterns found.
 Present in a list of commonly used passwords. Consider using a more unique password.
 Password is moderate and can be cracked in a few hours. Consider strengthening it.
 
-Thank you for using CrackPass!
+Thank you for using Password Sentinel!
 
 ```
 
